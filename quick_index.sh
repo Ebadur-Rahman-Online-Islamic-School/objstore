@@ -6,7 +6,7 @@ test -n "$1" || failexit
 test -d "$1" || failexit
 
 {
-cd "$1" && find . -mindepth 1 -maxdepth 1 -print \
+cd "$1" && find . -mindepth 1 -maxdepth 1 ! \( -name "*.json" -size 0 \) -print \
  | sed 's|^\./||' \
  | sort -V \
  | jq -R . \
