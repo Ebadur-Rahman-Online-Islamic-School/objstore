@@ -1,0 +1,317 @@
+{
+  "schema_version": 1,
+  "themes": [
+    {
+      "id": "islamic_green",
+      "displayName": "Islamic Green",
+      "primaryColor": "#00695C",
+      "secondaryColor": "#00897B",
+      "accentColor": "#FFD54F",
+      "backgroundColor": "#FFFFFF",
+      "textColor": "#263238",
+      "secondaryTextColor": "#546E7A",
+      "borderColor": "#00695C",
+      "borderRadius": 20.0,
+      "borderWidth": 2.0,
+      "elevation": 6.0,
+      "frontGradient": {
+        "colors": [
+          "#00695C",
+          "#00897B"
+        ],
+        "begin": "topLeft",
+        "end": "bottomRight"
+      },
+      "gradientBorder": {
+        "colors": [
+          "#00695C",
+          "#00897B",
+          "#4DB6AC"
+        ],
+        "width": 3.0,
+        "radius": 20.0,
+        "backgroundColor": "#FFFFFF",
+        "difficultyBorders": {
+          "beginner": {
+            "width": 2.0,
+            "colors": [
+              "#4DB6AC",
+              "#80CBC4"
+            ]
+          },
+          "intermediate": {
+            "width": 4.0,
+            "colors": [
+              "#00897B",
+              "#00695C"
+            ]
+          },
+          "advanced": {
+            "width": 6.0,
+            "colors": [
+              "#004D40",
+              "#00695C",
+              "#00897B"
+            ]
+          },
+          "expert": {
+            "width": 8.0,
+            "colors": [
+              "#00251A",
+              "#004D40",
+              "#FFD54F"
+            ]
+          }
+        }
+      },
+      "shadow": {
+        "color": "#4000695C",
+        "blur": 12.0,
+        "spread": 2.0,
+        "offsetX": 0.0,
+        "offsetY": 6.0
+      },
+      "cardShape": "roundedRectangle",
+      "imageShape": "roundedRectangle",
+      "arabicTextStyle": {
+        "fontSize": 32.0,
+        "bold": true,
+        "color": "#FFFFFF",
+        "fontFamily": "Amiri"
+      },
+      "primaryTextStyle": {
+        "fontSize": 24.0,
+        "bold": true,
+        "color": "#263238"
+      },
+      "secondaryTextStyle": {
+        "fontSize": 18.0,
+        "italic": true,
+        "color": "#546E7A"
+      }
+    },
+    {
+      "id": "modern_blue",
+      "displayName": "Modern Blue",
+      "primaryColor": "#1976D2",
+      "secondaryColor": "#42A5F5",
+      "accentColor": "#FF6F00",
+      "backgroundColor": "#FFFFFF",
+      "textColor": "#212121",
+      "secondaryTextColor": "#757575",
+      "borderColor": "#1976D2",
+      "borderRadius": 12.0,
+      "borderWidth": 1.5,
+      "elevation": 4.0,
+      "frontGradient": {
+        "colors": [
+          "#1976D2",
+          "#42A5F5"
+        ],
+        "begin": "topLeft",
+        "end": "bottomRight"
+      },
+      "gradientBorder": {
+        "colors": [
+          "#1976D2",
+          "#2196F3",
+          "#42A5F5"
+        ],
+        "width": 2.5,
+        "radius": 12.0,
+        "backgroundColor": "#FFFFFF",
+        "difficultyBorders": {
+          "beginner": {
+            "width": 2.0,
+            "colors": [
+              "#90CAF9",
+              "#64B5F6"
+            ]
+          },
+          "intermediate": {
+            "width": 3.5,
+            "colors": [
+              "#42A5F5",
+              "#2196F3"
+            ]
+          },
+          "advanced": {
+            "width": 5.0,
+            "colors": [
+              "#1976D2",
+              "#1565C0",
+              "#0D47A1"
+            ]
+          },
+          "expert": {
+            "width": 6.5,
+            "colors": [
+              "#FF6F00",
+              "#FFA000",
+              "#1565C0"
+            ]
+          }
+        }
+      },
+      "cardShape": "roundedRectangle",
+      "imageShape": "circle",
+      "arabicTextStyle": {
+        "fontSize": 28.0,
+        "bold": false,
+        "color": "#FFFFFF"
+      },
+      "primaryTextStyle": {
+        "fontSize": 20.0,
+        "bold": false,
+        "color": "#212121"
+      },
+      "secondaryTextStyle": {
+        "fontSize": 16.0,
+        "italic": false,
+        "color": "#757575"
+      }
+    },
+    {
+      "id": "quranic_gold",
+      "displayName": "Quranic Gold",
+      "primaryColor": "#B8860B",
+      "secondaryColor": "#DAA520",
+      "accentColor": "#2E7D32",
+      "backgroundColor": "#FFFAF0",
+      "textColor": "#3E2723",
+      "secondaryTextColor": "#5D4037",
+      "borderColor": "#B8860B",
+      "borderRadius": 16.0,
+      "borderWidth": 3.0,
+      "elevation": 8.0,
+      "frontGradient": {
+        "colors": [
+          "#B8860B",
+          "#DAA520",
+          "#FFD700"
+        ],
+        "begin": "topLeft",
+        "end": "bottomRight"
+      },
+      "gradientBorder": {
+        "colors": [
+          "#B8860B",
+          "#DAA520",
+          "#FFD700",
+          "#F4A460"
+        ],
+        "width": 4.0,
+        "radius": 16.0,
+        "backgroundColor": "#FFFAF0",
+        "difficultyBorders": {
+          "beginner": {
+            "width": 3.0,
+            "colors": [
+              "#FFD700",
+              "#F4A460"
+            ]
+          },
+          "intermediate": {
+            "width": 5.0,
+            "colors": [
+              "#DAA520",
+              "#B8860B"
+            ]
+          },
+          "advanced": {
+            "width": 8.0,
+            "colors": [
+              "#8B6914",
+              "#B8860B",
+              "#DAA520"
+            ]
+          },
+          "expert": {
+            "width": 10.0,
+            "colors": [
+              "#5C4A0A",
+              "#8B6914",
+              "#FFD700"
+            ]
+          }
+        }
+      },
+      "shadow": {
+        "color": "#4D000000",
+        "blur": 12.0,
+        "spread": 0.0,
+        "offsetX": 0.0,
+        "offsetY": 6.0
+      },
+      "cardShape": "roundedRectangle",
+      "imageShape": "roundedRectangle",
+      "arabicTextStyle": {
+        "fontSize": 36.0,
+        "bold": true,
+        "color": "#FFFFFF",
+        "fontFamily": "Scheherazade"
+      },
+      "primaryTextStyle": {
+        "fontSize": 20.0,
+        "bold": false,
+        "color": "#3E2723"
+      },
+      "secondaryTextStyle": {
+        "fontSize": 16.0,
+        "italic": false,
+        "color": "#5D4037"
+      }
+    },
+    {
+      "id": "kassim_mix",
+      "displayName": "Kassim Islamic Mix",
+      "primaryColor": "#FFC107",
+      "secondaryColor": "#00BCD4",
+      "accentColor": "#607D8B",
+      "backgroundColor": "#03A9F4",
+      "textColor": "#3F51B5",
+      "secondaryTextColor": "#FF5722",
+      "borderColor": "#FFC107",
+      "borderRadius": 12.0,
+      "borderWidth": 1.0,
+      "elevation": 2.0,
+      "frontGradient": {
+        "colors": [
+          "#2D5016",
+          "#61A033",
+          "#8FBC8F"
+        ],
+        "begin": "centerLeft",
+        "end": "bottomRight"
+      },
+      "gradientBorder": {
+        "colors": [
+          "#1A0033",
+          "#6B46C1",
+          "#EC4899",
+          "#F59E0B"
+        ],
+        "width": 1.2,
+        "radius": 2.4,
+        "backgroundColor": "#f83722"
+      },
+      "cardShape": "roundedRectangle",
+      "imageShape": "roundedRectangle",
+      "arabicTextStyle": {
+        "fontSize": 28.0,
+        "bold": false,
+        "color": "#F6F31C"
+      },
+      "primaryTextStyle": {
+        "fontSize": 20.0,
+        "bold": false,
+        "color": "#3F51B5"
+      },
+      "secondaryTextStyle": {
+        "fontSize": 16.0,
+        "italic": false,
+        "color": "#FF5722"
+      }
+    }
+  ]
+}
