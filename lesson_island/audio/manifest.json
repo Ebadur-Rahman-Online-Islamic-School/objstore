@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "last_updated": "2026-09-18T12:00:00Z",
+  "min_app_version": "1.0.0",
+  "assets_zip_url": "https://ebadur-rahman-online-islamic-school.github.io/objstore/lesson_island/audio/assets.zip",
+  "assets_size_bytes": 1048576,
+  "files": [
+    {
+      "path": "lessons.json",
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "categories.json",
+      "hash": "f2ca1bb6c7e907d06dafe4687e579fce76b37e4e93b7605022da52e6ccc26fd2"
+    }
+  ]
+}
